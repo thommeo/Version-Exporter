@@ -1,7 +1,7 @@
 Version Exporter for Photoshop
 ==============================
 
-![Main Window](https://raw.github.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Main%20Window.png)
+![Main Window](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Main%20Window.png)
 
 Version Exporter is a script for Adobe Photoshop to help you export LayerComps or LayerSets (Folders or Groups) as separate files and wrap them with Safari, Firefox or generic flat browser window.
 
