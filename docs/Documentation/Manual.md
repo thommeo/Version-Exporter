@@ -3,7 +3,7 @@ Version Exporter
 
 Version Exporter is a JavaScript application for Adobe Photoshop providing a workflow for exporting different views or versions of a single Photoshop document. It is an advanced version of familiar 'Layers to Files' and 'Comps to Files' scripts from the original Photoshop package.
 
-![Main Window](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Main%20Window.png)
+![Main Window](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Main%20Window.png)
 
 Features
 ========
@@ -86,7 +86,7 @@ This action will crop everything inside the bounding box of the `Cover`. The vis
 
 Where `Settings` is a name of the layer set, `Crops` is a layer set inside `Settings` and `Crop Viewport` is an actual layer with filled area:
 
-![Layer Comps Actions](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Comps%20Actions.png)
+![Layer Comps Actions](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Comps%20Actions.png)
 
 ### Resize Action
 
@@ -142,7 +142,7 @@ Document Setup based on Layer Sets
 Basic Export *(draft)*
 --------------------
 
-![Basic Functionality](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Layer%20Sets%20Smart%20Folders.png)
+![Basic Functionality](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Layer%20Sets%20Smart%20Folders.png)
 
 Version Exporter works in a copy of the document, so there is no way it can influence you source document. Additional information on that see in chapter Document Setup: Layer Comps Approach.
 
@@ -161,7 +161,7 @@ This won't affect Background folder, as it doesn't get exported as a single vers
 
 Ignoring folders will affect the numbering of the files. The number of the file increments only for the actually exported images.
 
-![Disabled Folder](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Layer%20Sets%20Disable.png)
+![Disabled Folder](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Layer%20Sets%20Disable.png)
 
 Smart Folders *(draft)*
 ------------
@@ -172,11 +172,11 @@ Smart Folders allow you to combine different folders and export it as a separate
 * you want alternative background for some versions
 * you want some modifications for some versions (see Action Layers section)
 
-![Smart Folders](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Layer%20Sets%20Smart%20Folders%202.png)
+![Smart Folders](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Layer%20Sets%20Smart%20Folders%202.png)
 
 Tell Version Exporter the folder needs to be treated as Smart Folder by assigning violet color to it. Basic idea of the Smart Folders is that every layer inside them is considered a reference to another layer or folder anywhere in the document.
 
-![Smart Folders Explained](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Layer%20Sets%20References.png)
+![Smart Folders Explained](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Layer%20Sets%20References.png)
 
 The content of the reference layers doesn't matter as the layers will be replaced by the referenced folder. The "URL" to the reference is the name of the reference layer. You can even use nested layers or folders by using a `/` in the reference.
 
@@ -191,7 +191,7 @@ Sometimes I had a situation when I needed to place several screens with differen
 
 So I made Action Layers. Layer will be treated as an Action Layer if it is found directly inside the Smart Folder and has the blue color assigned to it.
 
-![Action Layers](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Layer%20Sets%20Actions.png)
+![Action Layers](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Layer%20Sets%20Actions.png)
 
 Having in mind that there might be quite a number of actions, I must say that now there is only one :) it is "crop". The syntax is dead simple.
 
@@ -219,7 +219,7 @@ Browser Wrap *(draft)*
 
 _Still needs to be documented_
 
-![Safari Wrap](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/Images/Wrap%20Safari.png)
+![Safari Wrap](https://raw.githubusercontent.com/thommeo/Version-Exporter/master/docs/Documentation/images/Wrap%20Safari.png)
 
 In short it wraps the image with Safari window. The resulting screen looks about 100% the same as the screenshot you would capture from original Mac OS (Lion).
 
