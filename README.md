@@ -47,7 +47,8 @@ https://github.com/thommeo/Version-Exporter/blob/master/docs/Documentation/Manua
 
 1.2.3
 
-* Updated README and documentation
+* Updated README
+* Updated Documentation
 
 1.2.2
 
